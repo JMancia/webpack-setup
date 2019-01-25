@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jorge Mancia",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMancia/webpack-setup.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/JMancia/webpack-setup/issues"
+  },
+  "homepage": "https://github.com/JMancia/webpack-setup#readme"
 }
