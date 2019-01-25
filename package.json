@@ -4,7 +4,8 @@
   "description": "Webpack setup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "Jorge Mancia",
   "license": "MIT",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/JMancia/webpack-setup/issues"
   },
-  "homepage": "https://github.com/JMancia/webpack-setup#readme"
+  "homepage": "https://github.com/JMancia/webpack-setup#readme",
+  "devDependencies": {
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
 }
